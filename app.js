@@ -26,7 +26,6 @@ formContainer.addEventListener("submit", (e) => {
     password2.classList.add("success");
     text.innerHTML = "Mot de passe valide";
     text.style.color = "green";
-    e.preventDefault();
+    window.location.href = "form.html";
   }
-  window.location.href = "form.html";
 });
