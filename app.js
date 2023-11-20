@@ -16,7 +16,7 @@ formContainer.addEventListener("submit", (e) => {
     text.style.color = "green";
     e.preventDefault();
   }
-  //
+  // Confirmation mot de passe
   if (password2.value !== password.value) {
     password2.classList.add("error");
     text.innerHTML = "Le mot de passe ne correspond pas";
